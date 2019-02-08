@@ -1,0 +1,37 @@
+h1{
+	font-family: fantasy;
+	color:white;
+	background-color: black;
+	text-align: center;
+	font-size: 3em;
+	border: 5px dotted green;
+	box-shadow: 4px 3px 4px #888888;
+}
+
+.container{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+img{
+	width:450px;
+	height:300px;
+	margin: 10px;
+	transition: all 2s;
+}
+img:hover
+{
+	transform: scale(1.2);
+}
+
+.button{
+	background-color: white;
+	text-align: center;
+	color: black;
+	border:2px solid #f44336;
+}
+.button:hover{
+	background-color:#f44336;
+	color:white;
+	cursor:pointer;
+}
